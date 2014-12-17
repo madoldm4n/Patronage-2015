@@ -22,10 +22,10 @@ public class Zadanie {
         int i ;
 
         i = ciag.length()-1;  
-        boolean test = ciag.contains(" ");
+        boolean znak = ciag.contains(" ");
 
        
-           if (ciag.length() == 0  || test==true){
+           if (ciag.length() == 0  || znak==true){
                 System.err.println("B³¹d programu.Wprowadzony ci¹g jest pusty");
                 ciagi();
         }
